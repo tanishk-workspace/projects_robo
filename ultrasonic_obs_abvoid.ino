@@ -1,7 +1,7 @@
 #include <Ultrasonic.h>
 #include <Servo.h>
 //PWM enabled pins -(9,3) 9,8,7,5,4,3
-// hcsr04 any digital pin
+// hcsr04 any digital pin trig-11, echo-12
 
 Servo myservo;
 Ultrasonic ultrasonic(11,12);
