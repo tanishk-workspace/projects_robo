@@ -5,7 +5,6 @@
 
 Servo myservo;
 Ultrasonic ultrasonic(11,12);
-int k;
 int pos=0;
 const int ENA_PIN = 3; //EN1 pin L298N
 const int IN1_PIN = 4; //IN1 pin L298N
